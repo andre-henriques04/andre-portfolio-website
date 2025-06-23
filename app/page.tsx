@@ -483,7 +483,7 @@ export default function Portfolio() {
             {/* Main Heading */}
             <div className="mb-8">
               <h1 className="text-6xl md:text-8xl font-black mb-4 leading-tight">
-                <span className="text-gray-900 dark:text-white">yo, i'm </span> 
+                <span className="text-gray-900 dark:text-white">yo, i'm </span>
                 <span className="bg-gradient-to-r from-emerald-400 via-blue-500 to-purple-600 bg-clip-text text-transparent">
                   andre
                 </span>
@@ -491,13 +491,13 @@ export default function Portfolio() {
               </h1>
 
               <div className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-6 font-light max-w-4xl mx-auto leading-relaxed">
-                <span className="text-gray-900 dark:text-white"> aspiring </span> 
-                <span className="text-emerald-500 font-semibold">  software engineer </span>
-                <span className="text-gray-900 dark:text-white"> passionate about </span> 
+                <span className="text-gray-900 dark:text-white"> aspiring </span>
+                <span className="text-emerald-500 font-semibold"> software engineer </span>
+                <span className="text-gray-900 dark:text-white"> passionate about </span>
                 <span className="text-blue-500 font-semibold">ai</span>
-                <span className="text-gray-900 dark:text-white">, </span> 
+                <span className="text-gray-900 dark:text-white">, </span>
                 <span className="text-purple-500 font-semibold">machine learning</span>
-                <span className="text-gray-900 dark:text-white">, and building </span> 
+                <span className="text-gray-900 dark:text-white">, and building </span>
                 <span className="text-emerald-500 font-semibold">innovative solutions</span>
               </div>
             </div>
@@ -555,21 +555,20 @@ export default function Portfolio() {
         </section>
 
         {/* About Section */}
-        <section
-          id="about"
-          className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50 dark:bg-gray-800"
-        >
+        <section id="about" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50 dark:bg-gray-800">
           <div className="max-w-6xl mx-auto">
             <div className="grid lg:grid-cols-3 gap-12 items-center">
               {/* Main Content - Left Side */}
               <div className="lg:col-span-2 space-y-8">
                 {/* Who Am I Header */}
                 <div>
-                  <p className="text-gray-500 dark:text-gray-400 text-sm font-medium tracking-wider uppercase mb-4">WHO AM I?</p>
+                  <p className="text-gray-500 dark:text-gray-400 text-sm font-medium tracking-wider uppercase mb-4">
+                    WHO AM I?
+                  </p>
                   <h3 className="text-4xl md:text-6xl font-black text-gray-900 dark:text-white mb-8">
                     Who are <span className="italic font-light">you</span>??
                   </h3>
-                  
+
                   <div className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed space-y-6 max-w-4xl">
                     <p>
                       I'm an <span className="text-blue-500 font-bold">aspiring software engineer</span> studying{" "}
@@ -578,20 +577,24 @@ export default function Portfolio() {
                       <span className="text-red-500 font-bold">Texas State University</span>. Currently working as a{" "}
                       <span className="text-emerald-500 font-bold">Software Engineering Intern</span> at{" "}
                       <span className="text-blue-500 font-bold">Singular</span>, where I'm building{" "}
-                      <span className="text-purple-500 font-bold">AI tools</span> to improve government tech and workflows.
+                      <span className="text-purple-500 font-bold">AI tools</span> to improve government tech and
+                      workflows.
                     </p>
-                    
+
                     <p>
                       When I'm not on the computer, you'll find me coaching and playing{" "}
-                      <span className="text-yellow-500 font-bold">pickleball</span>  — the sport's strategy and community keep me hooked. I've coached{" "}
-                      <span className="text-emerald-500 font-bold">500+ students</span> and love seeing players improve. 
+                      <span className="text-yellow-500 font-bold">pickleball</span> — the sport's strategy and community
+                      keep me hooked. I've coached <span className="text-emerald-500 font-bold">500+ students</span> and
+                      love seeing players improve.
                     </p>
                   </div>
                 </div>
 
                 {/* What I'm Passionate About */}
                 <div className="mt-12">
-                  <h4 className="text-3xl font-bold text-gray-900 dark:text-white mb-8">What I'm <span className="italic font-light">passionate</span> about</h4>
+                  <h4 className="text-3xl font-bold text-gray-900 dark:text-white mb-8">
+                    What I'm <span className="italic font-light">passionate</span> about
+                  </h4>
                   <div className="grid md:grid-cols-3 gap-6">
                     <div className="space-y-4">
                       <h5 className="text-xl font-bold text-emerald-500">Technology</h5>
@@ -610,7 +613,7 @@ export default function Portfolio() {
                         </div>
                       </div>
                     </div>
-                    
+
                     <div className="space-y-4">
                       <h5 className="text-xl font-bold text-yellow-500">Sports & Leadership</h5>
                       <div className="space-y-2">
@@ -628,7 +631,7 @@ export default function Portfolio() {
                         </div>
                       </div>
                     </div>
-                    
+
                     <div className="space-y-4">
                       <h5 className="text-xl font-bold text-pink-500">Culture & Learning</h5>
                       <div className="space-y-2">
@@ -651,19 +654,21 @@ export default function Portfolio() {
 
                 {/* Fun Facts */}
                 <div className="mt-12">
-                  <h4 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Fun <span className="italic font-light">facts</span></h4>
+                  <h4 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
+                    Fun <span className="italic font-light">facts</span>
+                  </h4>
                   <div className="grid md:grid-cols-3 gap-4">
                     <div className="flex items-center justify-between p-4 bg-white dark:bg-gray-700 rounded-xl shadow-sm">
                       <span className="text-gray-700 dark:text-gray-300 font-medium">American Mensa Member</span>
                       <span className="text-2xl">🧠</span>
                     </div>
                     <div className="flex items-center justify-between p-4 bg-white dark:bg-gray-700 rounded-xl shadow-sm">
-                      <span className="text-gray-700 dark:text-gray-300 font-medium">4 Languages Spoken    <span className="text-2xl">🌍</span></span>
-                      
+                      <span className="text-gray-700 dark:text-gray-300 font-medium">4 Languages Spoken</span>
+                      <span className="text-2xl">🌍</span>
                     </div>
                     <div className="flex items-center justify-between p-4 bg-white dark:bg-gray-700 rounded-xl shadow-sm">
-                      <span className="text-gray-700 dark:text-gray-300 font-medium">Studied abroad in Italy   <span className="text-2xl">🇮🇹</span></span>
-                      
+                      <span className="text-gray-700 dark:text-gray-300 font-medium">Studied abroad in Italy</span>
+                      <span className="text-2xl">🇮🇹</span>
                     </div>
                   </div>
                 </div>
@@ -683,7 +688,7 @@ export default function Portfolio() {
                 </div>
 
                 {/* Heritage */}
-                <div >
+                <div>
                   <h5 className="font-bold text-gray-900 dark:text-white mb-4 text-center">My Heritage</h5>
                   <img
                     src="/images/brazil-usa-flag-new.png"
@@ -722,8 +727,7 @@ export default function Portfolio() {
                   {/* Content Card - Right Side */}
                   <div className="w-full md:w-5/12 md:ml-auto">
                     <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8 border border-gray-100 dark:border-gray-700 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
-                      {/* Company Logo Placeholder */}
-                      
+                      {/* Company Logo */}
                       <div className="flex items-center mb-6">
                         <div className="w-16 h-16 bg-white rounded-xl flex items-center justify-center mr-4 shadow-lg p-2">
                           <img
@@ -733,7 +737,9 @@ export default function Portfolio() {
                           />
                         </div>
                         <div>
-                          <h3 className="text-2xl font-bold text-gray-900 dark:text-white">Software Engineering Intern</h3>
+                          <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
+                            Software Engineering Intern
+                          </h3>
                           <p className="text-emerald-600 dark:text-emerald-400 font-semibold text-lg">Singular</p>
                           <p className="text-gray-500 dark:text-gray-400 text-sm">Brasília, Brazil</p>
                         </div>
@@ -811,21 +817,22 @@ export default function Portfolio() {
                         <div className="flex items-start">
                           <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>
                           <p>
-                            Coached <strong>500+ students</strong> across all skill levels, driving measurable improvement in
-                            skill retention
+                            Coached <strong>500+ students</strong> across all skill levels, driving measurable
+                            improvement in skill retention
                           </p>
                         </div>
                         <div className="flex items-start">
                           <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>
                           <p>
-                            Managed clinics and tournaments, increasing member engagement by <strong>60%</strong> and event
-                            participation by <strong>90%</strong>
+                            Managed clinics and tournaments, increasing member engagement by <strong>60%</strong> and
+                            event participation by <strong>90%</strong>
                           </p>
                         </div>
                         <div className="flex items-start">
                           <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>
                           <p>
-                            Achieved <strong>95% client retention rate</strong> through feedback, analysis, and mentorship
+                            Achieved <strong>95% client retention rate</strong> through feedback, analysis, and
+                            mentorship
                           </p>
                         </div>
                       </div>
@@ -880,18 +887,18 @@ export default function Portfolio() {
                         </p>
                       </div>
                     </div>
-                    <div className="flex items-center space-x-2">
-                      
-                    </div>
                   </div>
 
                   {/* Project Description */}
                   <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
                     Full-stack AI agent with{" "}
-                    <span className="text-emerald-600 dark:text-emerald-400 font-semibold">persistent vector memory</span>,
-                    context compression, and live reasoning visualization. Features advanced agentic planning workflow with
-                    <span className="text-blue-600 dark:text-blue-400 font-semibold"> human-in-the-loop approvals</span> and
-                    tool orchestration via MCP interface.
+                    <span className="text-emerald-600 dark:text-emerald-400 font-semibold">
+                      persistent vector memory
+                    </span>
+                    , context compression, and live reasoning visualization. Features advanced agentic planning workflow
+                    with
+                    <span className="text-blue-600 dark:text-blue-400 font-semibold"> human-in-the-loop approvals</span>{" "}
+                    and tool orchestration via MCP interface.
                   </p>
 
                   {/* Key Features */}
@@ -967,19 +974,19 @@ export default function Portfolio() {
                       </div>
                       <div>
                         <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-1">Pickleball GPT</h3>
-                        <p className="text-blue-600 dark:text-blue-400 font-semibold">Tournament Searcher & AI Assistant</p>
+                        <p className="text-blue-600 dark:text-blue-400 font-semibold">
+                          Tournament Searcher & AI Assistant
+                        </p>
                       </div>
-                    </div>
-                    <div className="flex items-center space-x-2">
-                      
                     </div>
                   </div>
 
                   {/* Project Description */}
                   <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
-                    <span className="text-blue-600 dark:text-blue-400 font-semibold">RAG-based GPT assistant</span> leveraging
-                    domain experience as a Pickleball Professional to answer player questions and improve tournament search,
-                    serving <span className="text-purple-600 dark:text-purple-400 font-semibold">... active users</span> with
+                    <span className="text-blue-600 dark:text-blue-400 font-semibold">RAG-based GPT assistant</span>{" "}
+                    leveraging domain experience as a Pickleball Professional to answer player questions and improve
+                    tournament search, serving{" "}
+                    <span className="text-purple-600 dark:text-purple-400 font-semibold">100+ active users</span> with
                     AI-driven training recommendations.
                   </p>
 
@@ -1051,8 +1058,14 @@ export default function Portfolio() {
                 <span className="text-gray-600 dark:text-gray-400 mr-2">More projects coming soon</span>
                 <div className="flex space-x-1">
                   <div className="w-2 h-2 bg-emerald-500 rounded-full animate-pulse"></div>
-                  <div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse" style={{ animationDelay: "0.2s" }}></div>
-                  <div className="w-2 h-2 bg-purple-500 rounded-full animate-pulse" style={{ animationDelay: "0.4s" }}></div>
+                  <div
+                    className="w-2 h-2 bg-blue-500 rounded-full animate-pulse"
+                    style={{ animationDelay: "0.2s" }}
+                  ></div>
+                  <div
+                    className="w-2 h-2 bg-purple-500 rounded-full animate-pulse"
+                    style={{ animationDelay: "0.4s" }}
+                  ></div>
                 </div>
               </div>
             </div>
@@ -1076,8 +1089,8 @@ export default function Portfolio() {
                 <h2 className="text-5xl font-black text-gray-900 dark:text-white">ciao from siena!</h2>
               </div>
               <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-                my spring 2025 semester abroad in italy was a life-changing adventure that broadened my perspective and created
-                unforgettable memories
+                my spring 2025 semester abroad in italy was a life-changing adventure that broadened my perspective and
+                created unforgettable memories
               </p>
             </div>
 
@@ -1085,7 +1098,6 @@ export default function Portfolio() {
             <div className="grid lg:grid-cols-2 gap-12 items-start mb-16">
               {/* Story Content */}
               <div className="space-y-8">
-
                 {/* Story Sections */}
                 <div className="space-y-6">
                   <div className="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg border border-gray-100 dark:border-gray-700">
@@ -1094,7 +1106,12 @@ export default function Portfolio() {
                       why siena?
                     </h3>
                     <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                      I chose Siena because I wanted something different from what I was getting at university. I had already lived in Brazil for five years, so I had experience living outside the U.S., but I'd never been in a <span className="text-blue-500 font-semibold">European environment</span> like this one — especially somewhere I didn't know anyone. I wanted to <span className="text-emerald-500 font-semibold">push myself out of my comfort zone</span> and discover more about myself in a completely new environment.
+                      I chose Siena because I wanted something different from what I was getting at university. I had
+                      already lived in Brazil for five years, so I had experience living outside the U.S., but I'd never
+                      been in a <span className="text-blue-500 font-semibold">European environment</span> like this one
+                      — especially somewhere I didn't know anyone. I wanted to{" "}
+                      <span className="text-emerald-500 font-semibold">push myself out of my comfort zone</span> and
+                      discover more about myself in a completely new environment.
                     </p>
                   </div>
 
@@ -1104,7 +1121,11 @@ export default function Portfolio() {
                       living the experience
                     </h3>
                     <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                      Being the <span className="text-emerald-500 font-semibold">only student from my university</span> among 70 students (mostly from UVA), I focused on building new connections. I shared a living space with five Americans and a local Italian roommate, creating rich cultural exchange. <span className="text-green-500 font-semibold">Siena</span> is a beautiful city with historical charm around every corner.
+                      Being the <span className="text-emerald-500 font-semibold">only student from my university</span>{" "}
+                      among 70 students (mostly from UVA), I focused on building new connections. I shared a living
+                      space with five Americans and a local Italian roommate, creating rich cultural exchange.{" "}
+                      <span className="text-green-500 font-semibold">Siena</span> is a beautiful city with historical
+                      charm around every corner.
                     </p>
                   </div>
 
@@ -1114,12 +1135,14 @@ export default function Portfolio() {
                       adventures beyond italy
                     </h3>
                     <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                      During my time there, I explored various parts of Italy, including <span className="text-yellow-500 font-semibold">Rome, Bologna, Florence, and Milan</span>. I also ventured beyond Italy to <span className="text-blue-500 font-semibold">Switzerland</span> and <span className="text-red-500 font-bold">Morocco</span>, enriching my experience even more. My study abroad in Siena provided invaluable new perspectives and unforgettable memories.
+                      During my time there, I explored various parts of Italy, including{" "}
+                      <span className="text-yellow-500 font-semibold">Rome, Bologna, Florence, and Milan</span>. I also
+                      ventured beyond Italy to <span className="text-blue-500 font-semibold">Switzerland</span> and{" "}
+                      <span className="text-red-500 font-bold">Morocco</span>, enriching my experience even more. My
+                      study abroad in Siena provided invaluable new perspectives and unforgettable memories.
                     </p>
                   </div>
                 </div>
-
-                 
 
                 {/* Countries Visited */}
                 <div className="bg-white dark:bg-gray-800 rounded-3xl p-8 shadow-xl border border-gray-100 dark:border-gray-700">
@@ -1225,139 +1248,139 @@ export default function Portfolio() {
                     the impact
                   </h3>
                   <p className="text-lg leading-relaxed">
-                    This experience taught me that <span className="font-semibold">stepping outside your comfort zone</span>{" "}
-                    is where real growth happens. Living with people from different backgrounds, navigating a new culture, and
-                    exploring diverse countries gave me perspectives I never would have gained otherwise.
+                    This experience taught me that{" "}
+                    <span className="font-semibold">stepping outside your comfort zone</span> is where real growth
+                    happens. Living with people from different backgrounds, navigating a new culture, and exploring
+                    diverse countries gave me perspectives I never would have gained otherwise.
                   </p>
                 </div>
               </div>
-
-              {/* Countries Visited */}
             </div>
-          </section>
+          </div>
+        </section>
 
-          {/* Contact Section - With Interactive 3D Orb */}
-          <section
-            id="contact"
-            className="min-h-screen py-20 px-4 sm:px-6 lg:px-8 bg-gray-900 dark:bg-black relative overflow-hidden"
-          >
-            {/* Starry Background */}
-            <div className="absolute inset-0">
-              <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900 dark:from-black dark:via-gray-900 dark:to-blue-900"></div>
-              {/* Stars */}
-              {[...Array(50)].map((_, i) => (
-                <div
-                  key={i}
-                  className="absolute w-1 h-1 bg-white rounded-full opacity-60 animate-pulse"
-                  style={{
-                    left: `${Math.random() * 100}%`,
-                    top: `${Math.random() * 100}%`,
-                    animationDelay: `${Math.random() * 3}s`,
-                  }}
-                ></div>
-              ))}
-            </div>
+        {/* Contact Section - With Interactive 3D Orb */}
+        <section
+          id="contact"
+          className="min-h-screen py-20 px-4 sm:px-6 lg:px-8 bg-gray-900 dark:bg-black relative overflow-hidden"
+        >
+          {/* Starry Background */}
+          <div className="absolute inset-0">
+            <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900 dark:from-black dark:via-gray-900 dark:to-blue-900"></div>
+            {/* Stars */}
+            {[...Array(50)].map((_, i) => (
+              <div
+                key={i}
+                className="absolute w-1 h-1 bg-white rounded-full opacity-60 animate-pulse"
+                style={{
+                  left: `${Math.random() * 100}%`,
+                  top: `${Math.random() * 100}%`,
+                  animationDelay: `${Math.random() * 3}s`,
+                }}
+              ></div>
+            ))}
+          </div>
 
-            <div className="relative z-10 max-w-7xl mx-auto">
-              <div className="grid lg:grid-cols-2 gap-16 items-center min-h-[80vh]">
-                {/* Left Side - Form */}
-                <div className="space-y-8">
+          <div className="relative z-10 max-w-7xl mx-auto">
+            <div className="grid lg:grid-cols-2 gap-16 items-center min-h-[80vh]">
+              {/* Left Side - Form */}
+              <div className="space-y-8">
+                <div>
+                  <p className="text-gray-400 text-sm font-medium tracking-wider uppercase mb-4">GET IN TOUCH</p>
+                  <h2 className="text-6xl md:text-7xl font-black text-white mb-8">Contact.</h2>
+                </div>
+
+                <form onSubmit={handleSubmit} className="space-y-8">
                   <div>
-                    <p className="text-gray-400 text-sm font-medium tracking-wider uppercase mb-4">GET IN TOUCH</p>
-                    <h2 className="text-6xl md:text-7xl font-black text-white mb-8">Contact.</h2>
+                    <label className="block text-white text-lg font-medium mb-3">Your Name</label>
+                    <input
+                      type="text"
+                      name="name"
+                      placeholder="What's your name?"
+                      className="w-full bg-transparent border-b-2 border-gray-600 text-white text-lg py-3 px-0 focus:outline-none focus:border-emerald-400 transition-colors duration-300 placeholder-gray-500"
+                      required
+                    />
                   </div>
 
-                  <form onSubmit={handleSubmit} className="space-y-8">
-                    <div>
-                      <label className="block text-white text-lg font-medium mb-3">Your Name</label>
-                      <input
-                        type="text"
-                        name="name"
-                        placeholder="What's your name?"
-                        className="w-full bg-transparent border-b-2 border-gray-600 text-white text-lg py-3 px-0 focus:outline-none focus:border-emerald-400 transition-colors duration-300 placeholder-gray-500"
-                        required
-                      />
-                    </div>
+                  <div>
+                    <label className="block text-white text-lg font-medium mb-3">Your Email</label>
+                    <input
+                      type="email"
+                      name="email"
+                      placeholder="What's your email?"
+                      className="w-full bg-transparent border-b-2 border-gray-600 text-white text-lg py-3 px-0 focus:outline-none focus:border-emerald-400 transition-colors duration-300 placeholder-gray-500"
+                      required
+                    />
+                  </div>
 
-                    <div>
-                      <label className="block text-white text-lg font-medium mb-3">Your Email</label>
-                      <input
-                        type="email"
-                        name="email"
-                        placeholder="What's your email?"
-                        className="w-full bg-transparent border-b-2 border-gray-600 text-white text-lg py-3 px-0 focus:outline-none focus:border-emerald-400 transition-colors duration-300 placeholder-gray-500"
-                        required
-                      />
-                    </div>
+                  <div>
+                    <label className="block text-white text-lg font-medium mb-3">Your Message</label>
+                    <textarea
+                      name="message"
+                      rows={4}
+                      placeholder="What do you want to say?"
+                      className="w-full bg-transparent border-b-2 border-gray-600 text-white text-lg py-3 px-0 focus:outline-none focus:border-emerald-400 transition-colors duration-300 placeholder-gray-500 resize-none"
+                      required
+                    ></textarea>
+                  </div>
 
-                    <div>
-                      <label className="block text-white text-lg font-medium mb-3">Your Message</label>
-                      <textarea
-                        name="message"
-                        rows={4}
-                        placeholder="What do you want to say?"
-                        className="w-full bg-transparent border-b-2 border-gray-600 text-white text-lg py-3 px-0 focus:outline-none focus:border-emerald-400 transition-colors duration-300 placeholder-gray-500 resize-none"
-                        required
-                      ></textarea>
-                    </div>
-
-                    <button
-                      type="submit"
-                      disabled={state.submitting}
-                      className="group relative bg-emerald-500 hover:bg-emerald-600 text-white font-semibold py-4 px-12 rounded-full transition-all duration-300 transform hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
-                    >
-                      {state.submitting ? (
-                        <div className="flex items-center">
-                          <div className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin mr-2"></div>
-                          Sending...
-                        </div>
-                      ) : (
-                        "Send"
-                      )}
-                    </button>
-                  </form>
-                </div>
-
-                {/* Right Side - Interactive 3D Orb */}
-                <Interactive3DOrb />
+                  <button
+                    type="submit"
+                    disabled={state.submitting}
+                    className="group relative bg-emerald-500 hover:bg-emerald-600 text-white font-semibold py-4 px-12 rounded-full transition-all duration-300 transform hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
+                  >
+                    {state.submitting ? (
+                      <div className="flex items-center">
+                        <div className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin mr-2"></div>
+                        Sending...
+                      </div>
+                    ) : (
+                      "Send"
+                    )}
+                  </button>
+                </form>
               </div>
+
+              {/* Right Side - Interactive 3D Orb */}
+              <Interactive3DOrb />
             </div>
-            {/* Footer - Integrated into Contact Section */}
-            <div className="relative z-10 border-t border-gray-700/30 pt-12 mt-20">
-              <div className="max-w-7xl mx-auto">
-                <div className="flex flex-col md:flex-row justify-between items-center">
-                  <div className="mb-4 md:mb-0">
-                    <p className="text-gray-400">© 2025 Andre Henriques</p>
-                  </div>
-                  <div className="flex space-x-6">
-                    <a
-                      href="https://github.com/andre-henriques04"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-gray-400 hover:text-emerald-400 transition-colors"
-                    >
-                      <Github className="h-5 w-5" />
-                    </a>
-                    <a
-                      href="https://linkedin.com/in/drehenriques/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-gray-400 hover:text-blue-400 transition-colors"
-                    >
-                      <Linkedin className="h-5 w-5" />
-                    </a>
-                    <a
-                      href="mailto:andre.henriques@gmail.com"
-                      className="text-gray-400 hover:text-purple-400 transition-colors"
-                    >
-                      <Mail className="h-5 w-5" />
-                    </a>
-                  </div>
+          </div>
+          {/* Footer - Integrated into Contact Section */}
+          <div className="relative z-10 border-t border-gray-700/30 pt-12 mt-20">
+            <div className="max-w-7xl mx-auto">
+              <div className="flex flex-col md:flex-row justify-between items-center">
+                <div className="mb-4 md:mb-0">
+                  <p className="text-gray-400">© 2025 Andre Henriques</p>
+                </div>
+                <div className="flex space-x-6">
+                  <a
+                    href="https://github.com/andre-henriques04"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-400 hover:text-emerald-400 transition-colors"
+                  >
+                    <Github className="h-5 w-5" />
+                  </a>
+                  <a
+                    href="https://linkedin.com/in/drehenriques/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-400 hover:text-blue-400 transition-colors"
+                  >
+                    <Linkedin className="h-5 w-5" />
+                  </a>
+                  <a
+                    href="mailto:andre.henriques@gmail.com"
+                    className="text-gray-400 hover:text-purple-400 transition-colors"
+                  >
+                    <Mail className="h-5 w-5" />
+                  </a>
                 </div>
               </div>
             </div>
-          </section>
-        </div>
+          </div>
+        </section>
       </div>
-    )
+    </div>
+  )
 }
