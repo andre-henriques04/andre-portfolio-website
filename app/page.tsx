@@ -828,7 +828,7 @@ export default function Portfolio() {
                 <AnimatedSection animation="slide-left" delay={200}>
                   <div className="relative flex items-center">
                     {/* Timeline Node */}
-                    <div className="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-emerald-500 rounded-full border-4 border-white dark:border-gray-900 shadow-lg z-10"></div>
+                    <div className="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-emerald-500 rounded-full border-4 border-white dark:border-gray-900 shadow-lg z-10 hidden md:block"></div>
 
                     {/* Content Card - Right Side */}
                     <div className="w-full md:w-5/12 md:ml-auto">
@@ -919,7 +919,7 @@ export default function Portfolio() {
                 <AnimatedSection animation="slide-right" delay={400}>
                   <div className="relative flex items-center md:-mt-48">
                     {/* Timeline Node */}
-                    <div className="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-blue-500 rounded-full border-4 border-white dark:border-gray-900 shadow-lg z-10"></div>
+                    <div className="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-blue-500 rounded-full border-4 border-white dark:border-gray-900 shadow-lg z-10 hidden md:block"></div>
 
                     {/* Content Card - Left Side */}
                     <div className="w-full md:-mt-48 md:w-5/12">
