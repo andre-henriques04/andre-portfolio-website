@@ -17,13 +17,4 @@ This portfolio is built with modern web technologies:
 
 ---
 
-## 🤝 Connect with Me
-
-Feel free to reach out!
-
-*   **LinkedIn:** [drehenriques](https://linkedin.com/in/drehenriques/)
-*   **Email:** andre.henriques@gmail.com
-
----
-
 Thanks for visiting! 😊
