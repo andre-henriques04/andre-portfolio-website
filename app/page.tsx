@@ -495,7 +495,7 @@ export default function Portfolio() {
         {/* Hero Section - Redesigned */}
         <section
           id="home"
-          className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 overflow-hidden"
+          className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 overflow-hidden pt-20 md:pt-0"
         >
           {/* Animated Background Elements */}
           <div className="absolute inset-0">
@@ -543,7 +543,7 @@ export default function Portfolio() {
           <div className="relative z-10 text-center max-w-5xl mx-auto">
             {/* Profile Image */}
             <AnimatedSection animation="scale-up" delay={200}>
-              <div className="mb-8 relative">
+              <div className="mb-8 relative mt-8 md:mt-0">
                 <div className="w-32 h-32 mx-auto relative">
                   <div className="absolute inset-0 bg-gradient-to-r from-emerald-400 to-blue-500 rounded-full animate-spin-slow opacity-75"></div>
                   <img
@@ -917,12 +917,12 @@ export default function Portfolio() {
 
                 {/* Life Time Experience */}
                 <AnimatedSection animation="slide-right" delay={400}>
-                  <div className="relative flex items-center -mt-48">
+                  <div className="relative flex items-center md:-mt-48">
                     {/* Timeline Node */}
                     <div className="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-blue-500 rounded-full border-4 border-white dark:border-gray-900 shadow-lg z-10"></div>
 
                     {/* Content Card - Left Side */}
-                    <div className="w-full -mt-48 md:w-5/12">
+                    <div className="w-full md:-mt-48 md:w-5/12">
                       <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8 border border-gray-100 dark:border-gray-700 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
                         {/* Company Logo */}
                         <div className="flex items-center mb-6">
