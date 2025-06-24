@@ -1,4 +1,4 @@
-Personal Portfolio Website ✨
+# Personal Portfolio Website ✨
 
 Welcome to my personal portfolio website! This space showcases my journey, projects, and passions in AI, Machine Learning, and software engineering. It's a quick look into my work, interests, and experiences, including my time studying abroad in Siena, Italy 🇮🇹
 
