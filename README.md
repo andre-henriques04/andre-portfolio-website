@@ -1,20 +1,3 @@
-# Personal Portfolio Website ✨
+# Andre Henriques - Personal Portfolio 😃
 
-Welcome to my personal portfolio website! This space showcases my journey, projects, and passions in AI, Machine Learning, and software engineering. It's a quick look into my work, interests, and experiences, including my time studying abroad in Siena, Italy 🇮🇹
-
----
-
-## 🛠️ Technologies Used
-
-This portfolio is built with modern web technologies:
-
-*   **Next.js 15 (App Router):** A powerful React framework.
-*   **React.js:** For building interactive user interfaces.
-*   **Tailwind CSS:** For efficient and flexible styling.
-*   **shadcn/ui:** Accessible UI components.
-*   **Lucide React:** For icons.
-*   **Formspree:** For handling contact form submissions.
-
----
-
-Thanks for visiting! 😊
+Welcome to my personal portfolio website! This project showcases my work, experience, and passion for AI, Machine Learning, and building innovative solutions. It also goes into more about me and my interests, as well as my experiences studying abroad in Siena, Italy last semester.
