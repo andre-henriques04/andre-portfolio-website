@@ -130,7 +130,7 @@ function Interactive3DOrb() {
   const [isDragging, setIsDragging] = useState(false)
   const [lastMouse, setLastMouse] = useState({ x: 0, y: 0 })
   const [lastTime, setLastTime] = useState(0)
-  const animationRef = useRef<number>()
+  const animationRef = useRef<number | null>(null)
   const velocityRef = useRef({ x: 0, y: 0 })
   const rotationRef = useRef({ x: 0, y: 180 })
 
@@ -884,7 +884,7 @@ export default function Portfolio() {
                           <div className="flex items-start group transition-transform duration-200 hover:scale-[1.02]">
                             <div className="w-2 h-2 bg-emerald-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>
                             <p>
-                              Built <strong>Model Context Protocol </strong> (MCP) tool servers exposed as OpenAPI REST
+                              Built <strong>Model Context Protocol </strong> (MCP) tool servers exposed as OpenAPI compatible REST
                               endpoints via{" "}
                               <a
                                 href="https://github.com/open-webui/mcpo"

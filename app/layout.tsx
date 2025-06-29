@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   creator: "Andre Henriques",
   openGraph: {
     title: "andre",
-    description: "Andre Henriques - Personal portfolio showcasing AI and software engineering projects.",
+    description: "Andre Henriques - Personal portfolio showcasing software engineering projects.",
     url: "https://andre-h.dev",
     siteName: "Andre Henriques - Personal Website",
     type: "website",
@@ -35,8 +35,7 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: "/icon.png",
-  },
-    generator: 'v0.dev'
+  }
 }
 
 export default function RootLayout({
