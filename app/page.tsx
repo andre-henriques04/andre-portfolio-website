@@ -495,7 +495,7 @@ export default function Portfolio() {
         {/* Hero Section - Redesigned */}
         <section
           id="home"
-          className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 overflow-hidden pt-20 md:pt-0"
+          className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 overflow-hidden pt-24 md:pt-20"
         >
           {/* Animated Background Elements */}
           <div className="absolute inset-0">
@@ -543,7 +543,7 @@ export default function Portfolio() {
           <div className="relative z-10 text-center max-w-5xl mx-auto">
             {/* Profile Image */}
             <AnimatedSection animation="scale-up" delay={200}>
-              <div className="mb-8 relative mt-8 md:mt-0">
+              <div className="mb-8 relative mt-24 md:mt-20">
                 <div className="w-32 h-32 mx-auto relative">
                   <div className="absolute inset-0 bg-gradient-to-r from-emerald-400 to-blue-500 rounded-full animate-spin-slow opacity-75"></div>
                   <img
