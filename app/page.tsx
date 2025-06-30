@@ -130,7 +130,7 @@ function Interactive3DOrb() {
   const [isDragging, setIsDragging] = useState(false)
   const [lastMouse, setLastMouse] = useState({ x: 0, y: 0 })
   const [lastTime, setLastTime] = useState(0)
-  const animationRef = useRef<number | null>(null)
+  const animationRef = useRef<number>()
   const velocityRef = useRef({ x: 0, y: 0 })
   const rotationRef = useRef({ x: 0, y: 180 })
 
@@ -549,12 +549,7 @@ export default function Portfolio() {
                   <img
                     src="/andre-photo.jpeg"
                     alt="Andre Henriques"
-                    className="relative w-28 h-28 rounded-full mx-auto border-4 border-white dark:border-gray-800 shadow-xl object-cover z-10"
-                    style={{
-                      position: "relative",
-                      top: "8px",
-                      left: "8px",
-                    }}
+                    className="absolute top-2 left-2 w-28 h-28 rounded-full border-4 border-white dark:border-gray-800 shadow-xl object-cover z-10"
                   />
                 </div>
               </div>
@@ -884,7 +879,7 @@ export default function Portfolio() {
                           <div className="flex items-start group transition-transform duration-200 hover:scale-[1.02]">
                             <div className="w-2 h-2 bg-emerald-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>
                             <p>
-                              Built <strong>Model Context Protocol </strong> (MCP) tool servers exposed as OpenAPI compatible REST
+                              Built <strong>Model Context Protocol </strong> (MCP) tool servers exposed as OpenAPI REST
                               endpoints via{" "}
                               <a
                                 href="https://github.com/open-webui/mcpo"
@@ -1170,7 +1165,6 @@ export default function Portfolio() {
                   {/* Action Buttons */}
                   <div className="flex space-x-4">
                     <a
-                      
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center px-4 py-2 bg-gray-900 dark:bg-white text-white dark:text-gray-900 rounded-xl font-semibold hover:bg-gray-800 dark:hover:bg-gray-100 transition-colors duration-200 cursor-not-allowed"
