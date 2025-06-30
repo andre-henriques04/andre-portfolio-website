@@ -130,7 +130,7 @@ function Interactive3DOrb() {
   const [isDragging, setIsDragging] = useState(false)
   const [lastMouse, setLastMouse] = useState({ x: 0, y: 0 })
   const [lastTime, setLastTime] = useState(0)
-  const animationRef = useRef<number>()
+  const animationRef = useRef<number | null>(null)  
   const velocityRef = useRef({ x: 0, y: 0 })
   const rotationRef = useRef({ x: 0, y: 180 })
 
@@ -841,7 +841,7 @@ export default function Portfolio() {
                             <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
                               Software Engineering Intern
                             </h3>
-                            <p className="text-emerald-600 dark:text-emerald-400 font-semibold text-lg">Singular</p>
+                            <p className="text-emerald-600 dark:text-emerald-400 font-semibold text-lg">Singular GovTech</p>
                             <p className="text-gray-500 dark:text-gray-400 text-sm">Brasília, Brazil</p>
                           </div>
                         </div>
