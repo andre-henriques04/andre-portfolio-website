@@ -1063,7 +1063,7 @@ export default function Portfolio() {
                       Tech Stack
                     </h4>
                     <div className="flex flex-wrap gap-2">
-                      {["Python", "Next.js", "OpenAI", "Model Context Protocol", "Docker"].map((tech) => (
+                      {["Python", "FastAPI", "Typescript", "React", "Next.js", "MCP", "Qdrant"].map((tech) => (
                         <span
                           key={tech}
                           className="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full text-xs font-medium border border-gray-200 dark:border-gray-700"
@@ -1113,12 +1113,12 @@ export default function Portfolio() {
 
                   {/* Project Description */}
                   <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
-                    <span className="text-blue-600 dark:text-blue-400 font-semibold">RAG-based GPT assistant</span>{" "}
-                    leveraging domain experience as a Pickleball Professional to answer player questions and improve
-                    tournament search, serving{" "}
-                    <span className="text-purple-600 dark:text-purple-400 font-semibold">100+ active users</span> with
-                    AI-driven training recommendations.
-                  </p>
+  <span className="text-blue-600 dark:text-blue-400 font-semibold">Full-stack RAG-based AI assistant</span>{" "}
+  that answers player questions, enhances tournament search, and delivers{" "}
+  <span className="text-purple-600 dark:text-purple-400 font-semibold">personalized training recommendations</span>{" "}
+  to over <span className="font-semibold">100+ active users</span> in the Pickleball community.
+</p>
+
 
                   {/* Key Features */}
                   <div className="mb-6">
@@ -1151,7 +1151,7 @@ export default function Portfolio() {
                       Tech Stack
                     </h4>
                     <div className="flex flex-wrap gap-2">
-                      {["Python", "FastAPI", "OpenAI", "RAG", "Vector DB"].map((tech) => (
+                      {["Java", "Maven", "Spring Boot", "Typescript", "React", "Next.js", "Chroma"].map((tech) => (
                         <span
                           key={tech}
                           className="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full text-xs font-medium border border-gray-200 dark:border-gray-700"
