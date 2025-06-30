@@ -885,7 +885,7 @@ export default function Portfolio() {
                                 href="https://github.com/open-webui/mcpo"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="font-bold text-emerald-500 hover:underline"
+                                className="text-emerald-500 hover:underline"
                               >
                                 <strong>mcpo</strong>
                               </a>
@@ -947,7 +947,7 @@ export default function Portfolio() {
                           <div className="flex items-start group transition-transform duration-200 hover:scale-[1.02]">
                             <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>
                             <p>
-                              Coached <strong>500+ students</strong> across all skill levels, driving measurable
+                              Coached <strong>500+</strong> students across all skill levels, driving measurable
                               improvement in skill retention
                             </p>
                           </div>
@@ -961,7 +961,7 @@ export default function Portfolio() {
                           <div className="flex items-start group transition-transform duration-200 hover:scale-[1.02]">
                             <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>
                             <p>
-                              Achieved <strong>95% client retention rate</strong> through feedback, analysis, and
+                              Achieved <strong>95%</strong> client retention rate through feedback, analysis, and
                               mentorship
                             </p>
                           </div>
@@ -1244,7 +1244,7 @@ export default function Portfolio() {
                         <span className="text-blue-500 font-semibold group-hover:text-blue-400 transition-colors duration-300">
                           European environment
                         </span>{" "}
-                        like this one — especially somewhere I didn't know anyone. I wanted to{" "}
+                        like this one — especially somewhere where I didn't know anyone. I wanted to{" "}
                         <span className="text-emerald-500 font-semibold group-hover:text-emerald-400 transition-colors duration-300">
                           push myself out of my comfort zone
                         </span>{" "}
