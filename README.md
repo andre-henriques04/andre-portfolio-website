@@ -6,7 +6,7 @@ Welcome to my personal portfolio website! This space showcases my journey, proje
 
 ## 🛠️ Technologies Used
 
-This portfolio is built with:
+This portfolio is built with modern web technologies:
 
 *   **Next.js 15:** A powerful React framework.
 *   **React.js:** For building interactive user interfaces.

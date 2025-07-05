@@ -130,7 +130,7 @@ function Interactive3DOrb() {
   const [isDragging, setIsDragging] = useState(false)
   const [lastMouse, setLastMouse] = useState({ x: 0, y: 0 })
   const [lastTime, setLastTime] = useState(0)
-  const animationRef = useRef<number | null>(null)  
+  const animationRef = useRef<number>()
   const velocityRef = useRef({ x: 0, y: 0 })
   const rotationRef = useRef({ x: 0, y: 180 })
 
@@ -408,7 +408,7 @@ export default function Portfolio() {
     {
       title: "🤖 Context-Engineered Long-Lived Agent (CELLA)",
       description:
-        "Full-stack AI agent with persistent vector memory, context compression, and live reasoning visualization. Features advanced agentic planning workflow with human-in-the-loop approvals and tool orchestration via MCP interface.",
+        "Full-stack AI agent with persistent vector memory, context compression, and live reasoning visualization. Features advanced agentic planning workflow with tool orchestration via MCP interface.",
       tech: ["Python", "Next.js", "OpenAI", "Model Context Protocol", "Docker"],
       github: "https://github.com/andre-henriques04/cella",
       demo: "https://cella-demo.com",
@@ -841,7 +841,7 @@ export default function Portfolio() {
                             <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
                               Software Engineering Intern
                             </h3>
-                            <p className="text-emerald-600 dark:text-emerald-400 font-semibold text-lg">Singular GovTech</p>
+                            <p className="text-emerald-600 dark:text-emerald-400 font-semibold text-lg">Singular</p>
                             <p className="text-gray-500 dark:text-gray-400 text-sm">Brasília, Brazil</p>
                           </div>
                         </div>
@@ -1028,8 +1028,7 @@ export default function Portfolio() {
                     </span>
                     , context compression, and live reasoning visualization. Features advanced agentic planning workflow
                     with
-                    <span className="text-blue-600 dark:text-blue-400 font-semibold"> human-in-the-loop approvals</span>{" "}
-                    and tool orchestration via MCP interface.
+                    <span className="text-blue-600 dark:text-blue-400 font-semibold"> tool orchestration</span>{" "}via MCP interface.
                   </p>
 
                   {/* Key Features */}
@@ -1063,7 +1062,7 @@ export default function Portfolio() {
                       Tech Stack
                     </h4>
                     <div className="flex flex-wrap gap-2">
-                      {["Python", "FastAPI", "Typescript", "React", "Next.js", "MCP", "Qdrant"].map((tech) => (
+                      {["Python", "FastAPI", "JavaScript", "React", "Next.js", "MCP", "Qdrant"].map((tech) => (
                         <span
                           key={tech}
                           className="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full text-xs font-medium border border-gray-200 dark:border-gray-700"
@@ -1076,14 +1075,6 @@ export default function Portfolio() {
 
                   {/* Action Buttons */}
                   <div className="flex space-x-4">
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center px-4 py-2 bg-gray-900 dark:bg-white text-white dark:text-gray-900 rounded-xl font-semibold hover:bg-gray-800 dark:hover:bg-gray-100 transition-colors duration-200 cursor-not-allowed"
-                    >
-                      <Github className="h-4 w-4 mr-2" />
-                      loading...
-                    </a>
                     <button className="flex items-center px-4 py-2 border-2 border-gray-300 dark:border-gray-600 text-gray-500 dark:text-gray-400 rounded-xl font-semibold cursor-not-allowed">
                       <ExternalLink className="h-4 w-4 mr-2" />
                       Demo
@@ -1113,12 +1104,15 @@ export default function Portfolio() {
 
                   {/* Project Description */}
                   <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
-  <span className="text-blue-600 dark:text-blue-400 font-semibold">Full-stack RAG-based AI assistant</span>{" "}
-  that answers player questions, enhances tournament search, and delivers{" "}
-  <span className="text-purple-600 dark:text-purple-400 font-semibold">personalized training recommendations</span>{" "}
-  to over <span className="font-semibold">100+ active users</span> in the Pickleball community.
-</p>
-
+                    <span className="text-blue-600 dark:text-blue-400 font-semibold">
+                      Full-stack RAG-based AI assistant
+                    </span>{" "}
+                    that answers player questions, enhances tournament search, and delivers{" "}
+                    <span className="text-purple-600 dark:text-purple-400 font-semibold">
+                      personalized training recommendations
+                    </span>{" "}
+                    to over <span className="font-semibold">100+ active users</span> in the Pickleball community.
+                  </p>
 
                   {/* Key Features */}
                   <div className="mb-6">
@@ -1151,7 +1145,7 @@ export default function Portfolio() {
                       Tech Stack
                     </h4>
                     <div className="flex flex-wrap gap-2">
-                      {["Java", "Maven", "Spring Boot", "Typescript", "React", "Next.js", "Chroma"].map((tech) => (
+                      {["Java", "Maven", "Spring Boot", "JavaScript", "React", "Next.js", "Chroma"].map((tech) => (
                         <span
                           key={tech}
                           className="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full text-xs font-medium border border-gray-200 dark:border-gray-700"
@@ -1164,14 +1158,6 @@ export default function Portfolio() {
 
                   {/* Action Buttons */}
                   <div className="flex space-x-4">
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center px-4 py-2 bg-gray-900 dark:bg-white text-white dark:text-gray-900 rounded-xl font-semibold hover:bg-gray-800 dark:hover:bg-gray-100 transition-colors duration-200 cursor-not-allowed"
-                    >
-                      <Github className="h-4 w-4 mr-2" />
-                      loading...
-                    </a>
                     <button className="flex items-center px-4 py-2 border-2 border-gray-300 dark:border-gray-600 text-gray-500 dark:text-gray-400 rounded-xl font-semibold cursor-not-allowed">
                       <ExternalLink className="h-4 w-4 mr-2" />
                       Demo
