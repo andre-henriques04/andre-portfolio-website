@@ -1077,7 +1077,7 @@ export default function Portfolio() {
                   <div className="flex space-x-4">
                     <button className="flex items-center px-4 py-2 border-2 border-gray-300 dark:border-gray-600 text-gray-500 dark:text-gray-400 rounded-xl font-semibold cursor-not-allowed">
                       <ExternalLink className="h-4 w-4 mr-2" />
-                      Demo
+                      Demo coming soon...
                     </button>
                   </div>
                 </div>
@@ -1160,7 +1160,7 @@ export default function Portfolio() {
                   <div className="flex space-x-4">
                     <button className="flex items-center px-4 py-2 border-2 border-gray-300 dark:border-gray-600 text-gray-500 dark:text-gray-400 rounded-xl font-semibold cursor-not-allowed">
                       <ExternalLink className="h-4 w-4 mr-2" />
-                      Demo
+                      Demo coming soon...
                     </button>
                   </div>
                 </div>
