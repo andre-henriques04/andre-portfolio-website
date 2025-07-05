@@ -130,7 +130,7 @@ function Interactive3DOrb() {
   const [isDragging, setIsDragging] = useState(false)
   const [lastMouse, setLastMouse] = useState({ x: 0, y: 0 })
   const [lastTime, setLastTime] = useState(0)
-  const animationRef = useRef<number>()
+  const animationRef = useRef<number | null>(null)
   const velocityRef = useRef({ x: 0, y: 0 })
   const rotationRef = useRef({ x: 0, y: 180 })
 
