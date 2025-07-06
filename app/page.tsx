@@ -879,7 +879,7 @@ export default function Portfolio() {
                           <div className="flex items-start group transition-transform duration-200 hover:scale-[1.02]">
                             <div className="w-2 h-2 bg-emerald-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>
                             <p>
-                              Built <strong>Model Context Protocol </strong> (MCP) tool servers exposed as OpenAPI REST
+                              Built <strong>Model Context Protocol </strong> (MCP) tool servers as OpenAPI-compatible REST
                               endpoints via{" "}
                               <a
                                 href="https://github.com/open-webui/mcpo"
@@ -1062,7 +1062,7 @@ export default function Portfolio() {
                       Tech Stack
                     </h4>
                     <div className="flex flex-wrap gap-2">
-                      {["Python", "FastAPI", "JavaScript", "React", "Next.js", "MCP", "Qdrant"].map((tech) => (
+                      {["Python", "FastAPI", "TypeScript", "React", "Next.js", "MCP", "Qdrant"].map((tech) => (
                         <span
                           key={tech}
                           className="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full text-xs font-medium border border-gray-200 dark:border-gray-700"
@@ -1145,7 +1145,7 @@ export default function Portfolio() {
                       Tech Stack
                     </h4>
                     <div className="flex flex-wrap gap-2">
-                      {["Java", "Maven", "Spring Boot", "JavaScript", "React", "Next.js", "Chroma"].map((tech) => (
+                      {["Java", "Maven", "Spring Boot", "TypeScript", "React", "Next.js", "Chroma"].map((tech) => (
                         <span
                           key={tech}
                           className="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full text-xs font-medium border border-gray-200 dark:border-gray-700"
