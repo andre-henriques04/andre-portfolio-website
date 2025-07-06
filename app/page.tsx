@@ -1109,9 +1109,9 @@ export default function Portfolio() {
                 </span>{" "}
                 tournament search and AI coaching assistant, featuring{" "}
                 <span className="text-purple-600 dark:text-purple-400 font-semibold">
-                  geospatial search capabilities
+                  geospatial search capabilities.
                 </span>{" "}
-                and automated daily scraping of <span className="font-semibold">1,200+ tournaments</span>, serving{" "}
+                Features automated daily scraping of <span className="font-semibold">1,200+ tournaments</span>, serving{" "}
                 <span className="font-semibold">75+ active players</span> from local pickleball community.
               </p>
 
@@ -1146,7 +1146,7 @@ export default function Portfolio() {
                   Tech Stack
                 </h4>
                 <div className="flex flex-wrap gap-2">
-                  {["Java", "Spring Boot", "TypeScript", "React", "Next.js", "OpenAI", "Chroma", "PostgreSQL", "PostGIS"].map((tech) => (
+                  {["Java", "Spring Boot", "TypeScript", "React", "Chroma", "PostgreSQL", "PostGIS"].map((tech) => (
                     <span
                       key={tech}
                       className="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full text-xs font-medium border border-gray-200 dark:border-gray-700"
