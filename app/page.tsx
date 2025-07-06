@@ -954,7 +954,7 @@ export default function Portfolio() {
                           <div className="flex items-start group transition-transform duration-200 hover:scale-[1.02]">
                             <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>
                             <p>
-                              Managed clinics and tournaments, increasing member engagement by <strong>60%</strong> and
+                              Managed clinics and tournaments, increasing member engagement by <strong>65%</strong> and
                               event participation by <strong>50%</strong>
                             </p>
                           </div>
