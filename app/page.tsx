@@ -1107,10 +1107,7 @@ export default function Portfolio() {
                 <span className="text-blue-600 dark:text-blue-400 font-semibold">
                   Full-stack PWA with RAG-powered
                 </span>{" "}
-                tournament search and AI coaching assistant, featuring{" "}
-                <span className="text-purple-600 dark:text-purple-400 font-semibold">
-                  geospatial search capabilities.
-                </span>{" "}
+                tournament search and AI coaching assistant
                 Features automated daily scraping of <span className="font-semibold">1,200+ tournaments</span>, serving{" "}
                 <span className="font-semibold">75+ active players</span> from local pickleball community.
               </p>
