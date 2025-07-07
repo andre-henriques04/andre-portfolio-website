@@ -1083,7 +1083,7 @@ export default function Portfolio() {
                 </div>
               </div>
 
-              {/* Pickleball GPT Project */}
+              {/* PickleballGPT Project */}
           <div className="group relative">
             <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-purple-500 rounded-3xl blur opacity-25 group-hover:opacity-40 transition-opacity duration-300"></div>
             <div className="relative bg-white dark:bg-gray-900 rounded-3xl p-8 shadow-xl border border-gray-100 dark:border-gray-800 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
@@ -1094,7 +1094,7 @@ export default function Portfolio() {
                     <span className="text-2xl">🎾</span>
                   </div>
                   <div>
-                    <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-1">Pickleball GPT</h3>
+                    <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-1">PickleballGPT</h3>
                     <p className="text-blue-600 dark:text-blue-400 font-semibold">
                       AI-Powered Tournament Discovery PWA
                     </p>
