@@ -879,8 +879,8 @@ export default function Portfolio() {
                           <div className="flex items-start group transition-transform duration-200 hover:scale-[1.02]">
                             <div className="w-2 h-2 bg-emerald-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>
                             <p>
-                              Built <strong>Model Context Protocol </strong> (MCP) tool servers as OpenAPI-compatible REST
-                              endpoints via{" "}
+                              Built <strong>Model Context Protocol </strong> (MCP) tool servers as OpenAPI-compatible
+                              REST endpoints via{" "}
                               <a
                                 href="https://github.com/open-webui/mcpo"
                                 target="_blank"
@@ -1028,7 +1028,8 @@ export default function Portfolio() {
                     </span>
                     , context compression, and live reasoning visualization. Features advanced agentic planning workflow
                     with
-                    <span className="text-blue-600 dark:text-blue-400 font-semibold"> tool orchestration</span>{" "}via MCP interface.
+                    <span className="text-blue-600 dark:text-blue-400 font-semibold"> tool orchestration</span> via MCP
+                    interface.
                   </p>
 
                   {/* Key Features */}
@@ -1084,85 +1085,86 @@ export default function Portfolio() {
               </div>
 
               {/* PickleballGPT Project */}
-          <div className="group relative">
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-purple-500 rounded-3xl blur opacity-25 group-hover:opacity-40 transition-opacity duration-300"></div>
-            <div className="relative bg-white dark:bg-gray-900 rounded-3xl p-8 shadow-xl border border-gray-100 dark:border-gray-800 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
-              {/* Project Header */}
-              <div className="flex items-start justify-between mb-6">
-                <div className="flex items-center">
-                  <div className="w-16 h-16 bg-gradient-to-br from-blue-400 to-purple-500 rounded-2xl flex items-center justify-center mr-4 shadow-lg">
-                    <span className="text-2xl">🎾</span>
+              <div className="group relative">
+                <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-purple-500 rounded-3xl blur opacity-25 group-hover:opacity-40 transition-opacity duration-300"></div>
+                <div className="relative bg-white dark:bg-gray-900 rounded-3xl p-8 shadow-xl border border-gray-100 dark:border-gray-800 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                  {/* Project Header */}
+                  <div className="flex items-start justify-between mb-6">
+                    <div className="flex items-center">
+                      <div className="w-16 h-16 bg-gradient-to-br from-blue-400 to-purple-500 rounded-2xl flex items-center justify-center mr-4 shadow-lg">
+                        <span className="text-2xl">🏓</span>
+                      </div>
+                      <div>
+                        <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-1">PickleballGPT</h3>
+                        <p className="text-blue-600 dark:text-blue-400 font-semibold">
+                          AI-Powered Tournament Discovery PWA
+                        </p>
+                      </div>
+                    </div>
                   </div>
-                  <div>
-                    <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-1">PickleballGPT</h3>
-                    <p className="text-blue-600 dark:text-blue-400 font-semibold">
-                      AI-Powered Tournament Discovery PWA
-                    </p>
+
+                  {/* Project Description */}
+                  <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
+                    <span className="text-blue-600 dark:text-blue-400 font-semibold">
+                      Full-stack PWA for pickleball tournaments
+                    </span>{" "}
+                    with automated scraping of<span className="font-semibold"> 1,200+</span> tournaments from across the
+                    globe, featuring advanced location-based search and a built-in AI assistant (
+                    <span className="font-semibold">PicklePal</span>) for rules and coaching. First-of-its-kind app to
+                    unify real-time tournament data and AI-powered support.
+                  </p>
+
+                  {/* Key Features */}
+                  <div className="mb-6">
+                    <h4 className="text-sm font-semibold text-gray-900 dark:text-white mb-3 uppercase tracking-wide">
+                      Key Features
+                    </h4>
+                    <div className="grid grid-cols-2 gap-2 text-sm">
+                      <div className="flex items-center text-gray-600 dark:text-gray-300">
+                        <div className="w-2 h-2 bg-blue-500 rounded-full mr-2"></div>
+                        Location-based tournament search
+                      </div>
+                      <div className="flex items-center text-gray-600 dark:text-gray-300">
+                        <div className="w-2 h-2 bg-purple-500 rounded-full mr-2"></div>
+                        RAG-powered AI assistant (rules & strategy Q&A)
+                      </div>
+                      <div className="flex items-center text-gray-600 dark:text-gray-300">
+                        <div className="w-2 h-2 bg-yellow-500 rounded-full mr-2"></div>
+                        Offline-capable (PWA installable)
+                      </div>
+                      <div className="flex items-center text-gray-600 dark:text-gray-300">
+                        <div className="w-2 h-2 bg-green-500 rounded-full mr-2"></div>
+                        Automated daily data pipeline
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Tech Stack */}
+                  <div className="mb-6">
+                    <h4 className="text-sm font-semibold text-gray-900 dark:text-white mb-3 uppercase tracking-wide">
+                      Tech Stack
+                    </h4>
+                    <div className="flex flex-wrap gap-2">
+                      {["Java", "Spring Boot", "TypeScript", "React", "OpenAI", "Chroma", "SQLite"].map((tech) => (
+                        <span
+                          key={tech}
+                          className="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full text-xs font-medium border border-gray-200 dark:border-gray-700"
+                        >
+                          {tech}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* Action Buttons */}
+                  <div className="flex space-x-4">
+                    <button className="flex items-center px-4 py-2 border-2 border-gray-300 dark:border-gray-600 text-gray-500 dark:text-gray-400 rounded-xl font-semibold cursor-not-allowed">
+                      <ExternalLink className="h-4 w-4 mr-2" />
+                      Demo coming soon...
+                    </button>
                   </div>
                 </div>
               </div>
-
-              {/* Project Description */}
-              <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
-                <span className="text-blue-600 dark:text-blue-400 font-semibold">
-                  Full-stack PWA with RAG-powered
-                </span>{" "}
-                tournament search and AI coaching assistant
-                Features automated daily scraping of <span className="font-semibold">1,200+ tournaments</span>, serving{" "}
-                <span className="font-semibold">75+ active players</span> from local pickleball community.
-              </p>
-
-              {/* Key Features */}
-              <div className="mb-6">
-                <h4 className="text-sm font-semibold text-gray-900 dark:text-white mb-3 uppercase tracking-wide">
-                  Key Features
-                </h4>
-                <div className="grid grid-cols-2 gap-2 text-sm">
-                  <div className="flex items-center text-gray-600 dark:text-gray-300">
-                    <div className="w-2 h-2 bg-blue-500 rounded-full mr-2"></div>
-                    Location-Based Search
-                  </div>
-                  <div className="flex items-center text-gray-600 dark:text-gray-300">
-                    <div className="w-2 h-2 bg-purple-500 rounded-full mr-2"></div>
-                    RAG Rules Assistant
-                  </div>
-                  <div className="flex items-center text-gray-600 dark:text-gray-300">
-                    <div className="w-2 h-2 bg-emerald-500 rounded-full mr-2"></div>
-                    DUPR-Based Recommendations
-                  </div>
-                  <div className="flex items-center text-gray-600 dark:text-gray-300">
-                    <div className="w-2 h-2 bg-yellow-500 rounded-full mr-2"></div>
-                    Offline-Capable PWA
-                  </div>
-                </div>
-              </div>
-
-              {/* Tech Stack */}
-              <div className="mb-6">
-                <h4 className="text-sm font-semibold text-gray-900 dark:text-white mb-3 uppercase tracking-wide">
-                  Tech Stack
-                </h4>
-                <div className="flex flex-wrap gap-2">
-                  {["Java", "Spring Boot", "TypeScript", "React", "Chroma", "PostgreSQL"].map((tech) => (
-                    <span
-                      key={tech}
-                      className="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full text-xs font-medium border border-gray-200 dark:border-gray-700"
-                    >
-                      {tech}
-                    </span>
-                  ))}
-                </div>
-              </div>
-
-              {/* Action Buttons */}
-              <div className="flex space-x-4">
-                <button className="flex items-center px-4 py-2 border-2 border-gray-300 dark:border-gray-600 text-gray-500 dark:text-gray-400 rounded-xl font-semibold cursor-not-allowed">
-                  <ExternalLink className="h-4 w-4 mr-2" />
-                  Demo coming soon...
-                </button>
-              </div>
-            </div>
-          </div>
             </StaggeredContainer>
 
             {/* Additional Projects Teaser */}
