@@ -419,7 +419,7 @@ export default function Portfolio() {
         "RAG-based GPT assistant leveraging domain experience as a Pickleball Professional to answer player questions and improve tournament search, 100+ active users with AI-driven training recommendations.",
       tech: ["Python", "FastAPI", "OpenAI"],
       github: "https://github.com/andre-henriques04",
-      demo: "#",
+      demo: "https://www.pickleball-gpt.com/",
     },
   ]
 
@@ -1145,7 +1145,7 @@ export default function Portfolio() {
                       Tech Stack
                     </h4>
                     <div className="flex flex-wrap gap-2">
-                      {["Java", "Spring Boot", "TypeScript", "React", "OpenAI", "Chroma", "PostgreSQL"].map((tech) => (
+                      {["Java", "Spring Boot", "TypeScript", "React", "OpenAI", "Chroma", "SQLite"].map((tech) => (
                         <span
                           key={tech}
                           className="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full text-xs font-medium border border-gray-200 dark:border-gray-700"
@@ -1158,10 +1158,15 @@ export default function Portfolio() {
 
                   {/* Action Buttons */}
                   <div className="flex space-x-4">
-                    <button className="flex items-center px-4 py-2 border-2 border-gray-300 dark:border-gray-600 text-gray-500 dark:text-gray-400 rounded-xl font-semibold cursor-not-allowed">
-                      <ExternalLink className="h-4 w-4 mr-2" />
-                      Demo coming soon...
-                    </button>
+                    <a
+                      href="https://www.pickleball-gpt.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center px-4 py-2 border-2 border-blue-500 dark:border-blue-400 text-blue-600 dark:text-blue-400 rounded-xl font-semibold hover:bg-blue-500 hover:text-white dark:hover:bg-blue-400 dark:hover:text-gray-900 transition-all duration-300 transform hover:scale-105 hover:shadow-lg cursor-pointer group"
+                    >
+                      <ExternalLink className="h-4 w-4 mr-2 group-hover:scale-110 transition-transform duration-300" />
+                      Visit Website
+                    </a>
                   </div>
                 </div>
               </div>
