@@ -1145,7 +1145,7 @@ export default function Portfolio() {
                       Tech Stack
                     </h4>
                     <div className="flex flex-wrap gap-2">
-                      {["Java", "Spring Boot", "TypeScript", "React", "OpenAI", "Chroma", "PostgreSQL"].map((tech) => (
+                      {["Python", "FastAPI", "TypeScript", "React", "Next.js", "Supabase", "OpenAI"].map((tech) => (
                         <span
                           key={tech}
                           className="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full text-xs font-medium border border-gray-200 dark:border-gray-700"
