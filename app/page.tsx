@@ -559,7 +559,7 @@ export default function Portfolio() {
             <AnimatedSection animation="fade-up" delay={400}>
               <div className="mb-8">
                 <h1 className="text-6xl md:text-8xl font-black mb-4 leading-tight">
-                  <span className="text-gray-900 dark:text-white">yo, i'm </span>
+                  <span className="text-gray-900 dark:text-white">Hey, i'm </span>
                   <span className="bg-gradient-to-r from-emerald-400 via-blue-500 to-purple-600 bg-clip-text text-transparent">
                     andre
                   </span>
