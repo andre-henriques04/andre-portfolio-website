@@ -1091,13 +1091,11 @@ export default function Portfolio() {
                   {/* Project Header */}
                   <div className="flex items-start justify-between mb-6">
                     <div className="flex items-center">
-                      <div className="w-16 h-16 bg-gradient-to-br from-blue-400 to-purple-500 rounded-2xl flex items-center justify-center mr-4 shadow-lg p-2">
-                        <img
-                          src="/images/pickleball-gpt-mascot.png"
-                          alt="PickleballGPT Mascot"
-                          className="w-full h-full object-contain"
-                        />
-                      </div>
+                      <img
+                        src="/images/pickleball-gpt-mascot.png"
+                        alt="PickleballGPT Mascot"
+                        className="w-16 h-16 object-contain mr-4"
+                      />
                       <div>
                         <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-1">PickleballGPT</h3>
                         <p className="text-blue-600 dark:text-blue-400 font-semibold">
