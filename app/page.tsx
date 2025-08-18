@@ -848,7 +848,7 @@ export default function Portfolio() {
 
                         <div className="mb-4">
                           <span className="inline-block bg-emerald-100 dark:bg-emerald-900 text-emerald-800 dark:text-emerald-200 px-3 py-1 rounded-full text-sm font-medium">
-                            May 2025 - Present
+                            May 2025 - Aug 2025
                           </span>
                         </div>
 
@@ -939,7 +939,7 @@ export default function Portfolio() {
 
                         <div className="mb-4">
                           <span className="inline-block bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-3 py-1 rounded-full text-sm font-medium">
-                            Jun 2023 - Present
+                            Jun 2023 - Jan 2025
                           </span>
                         </div>
 
@@ -1097,7 +1097,7 @@ export default function Portfolio() {
                       <div>
                         <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-1">PickleballGPT</h3>
                         <p className="text-blue-600 dark:text-blue-400 font-semibold">
-                          AI-Powered Tournament Discovery PWA
+                          AI-Powered Tournament Discovery Platform
                         </p>
                       </div>
                     </div>
@@ -1106,12 +1106,12 @@ export default function Portfolio() {
                   {/* Project Description */}
                   <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
                     <span className="text-blue-600 dark:text-blue-400 font-semibold">
-                      Full-stack PWA for pickleball tournaments
+                      AI-powered tournament discovery platform
                     </span>{" "}
-                    with automated scraping of<span className="font-semibold"> 1,200+</span> tournaments from across the
-                    globe, featuring advanced location-based search and a built-in AI assistant (
-                    <span className="font-semibold">PicklePal</span>) for rules and coaching. First-of-its-kind app to
-                    unify real-time tournament data and AI-powered support.
+                    aggregating<span className="font-semibold"> 1,050+</span> active tournaments across
+                    <span className="font-semibold"> 25+ countries</span>, featuring geospatial search up to 2,000 miles and
+                    natural language AI assistant (<span className="font-semibold">DillScout</span>) for personalized
+                    tournament recommendations. Daily updated database with 35+ parsed data fields per tournament.
                   </p>
 
                   {/* Key Features */}
@@ -1122,19 +1122,19 @@ export default function Portfolio() {
                     <div className="grid grid-cols-2 gap-2 text-sm">
                       <div className="flex items-center text-gray-600 dark:text-gray-300">
                         <div className="w-2 h-2 bg-blue-500 rounded-full mr-2"></div>
-                        Location-based tournament search
+                        Geospatial search (2,000 mile radius)
                       </div>
                       <div className="flex items-center text-gray-600 dark:text-gray-300">
                         <div className="w-2 h-2 bg-purple-500 rounded-full mr-2"></div>
-                        RAG-powered AI assistant (rules & strategy Q&A)
+                        Natural language AI queries (DillScout)
                       </div>
                       <div className="flex items-center text-gray-600 dark:text-gray-300">
                         <div className="w-2 h-2 bg-yellow-500 rounded-full mr-2"></div>
-                        Offline-capable (PWA installable)
+                        35+ tournament data fields
                       </div>
                       <div className="flex items-center text-gray-600 dark:text-gray-300">
                         <div className="w-2 h-2 bg-green-500 rounded-full mr-2"></div>
-                        Automated daily data pipeline
+                        Daily automated updates
                       </div>
                     </div>
                   </div>
