@@ -1091,8 +1091,12 @@ export default function Portfolio() {
                   {/* Project Header */}
                   <div className="flex items-start justify-between mb-6">
                     <div className="flex items-center">
-                      <div className="w-16 h-16 bg-gradient-to-br from-blue-400 to-purple-500 rounded-2xl flex items-center justify-center mr-4 shadow-lg">
-                        <span className="text-2xl">🏓</span>
+                      <div className="w-16 h-16 bg-gradient-to-br from-blue-400 to-purple-500 rounded-2xl flex items-center justify-center mr-4 shadow-lg p-2">
+                        <img
+                          src="/images/pickleball-gpt-mascot.png"
+                          alt="PickleballGPT Mascot"
+                          className="w-full h-full object-contain"
+                        />
                       </div>
                       <div>
                         <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-1">PickleballGPT</h3>
@@ -1108,10 +1112,10 @@ export default function Portfolio() {
                     <span className="text-blue-600 dark:text-blue-400 font-semibold">
                       AI-powered tournament discovery platform
                     </span>{" "}
-                    aggregating<span className="font-semibold"> 1,050+</span> active tournaments across
-                    <span className="font-semibold"> 25+ countries</span>, featuring geospatial search up to 2,000 miles and
-                    natural language AI assistant (<span className="font-semibold">DillScout</span>) for personalized
-                    tournament recommendations. Daily updated database with 35+ parsed data fields per tournament.
+                    tracking<span className="font-semibold"> 1,050+ active tournaments</span> across
+                    <span className="font-semibold"> 25+ countries</span>. Features geospatial search, natural language AI
+                    assistant (<span className="font-semibold">DillScout</span>), and daily automated updates with
+                    <span className="font-semibold"> 35+ data fields</span> per tournament for comprehensive filtering.
                   </p>
 
                   {/* Key Features */}
@@ -1122,11 +1126,11 @@ export default function Portfolio() {
                     <div className="grid grid-cols-2 gap-2 text-sm">
                       <div className="flex items-center text-gray-600 dark:text-gray-300">
                         <div className="w-2 h-2 bg-blue-500 rounded-full mr-2"></div>
-                        Geospatial search (2,000 mile radius)
+                        Geospatial search
                       </div>
                       <div className="flex items-center text-gray-600 dark:text-gray-300">
                         <div className="w-2 h-2 bg-purple-500 rounded-full mr-2"></div>
-                        Natural language AI queries (DillScout)
+                        Natural language AI queries
                       </div>
                       <div className="flex items-center text-gray-600 dark:text-gray-300">
                         <div className="w-2 h-2 bg-yellow-500 rounded-full mr-2"></div>
