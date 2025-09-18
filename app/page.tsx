@@ -406,12 +406,12 @@ export default function Portfolio() {
 
   const projects = [
     {
-      title: "🤖 Context-Engineered Long-Lived Agent (CELLA)",
+      title: "Strobe",
       description:
         "Full-stack AI agent with persistent vector memory, context compression, and live reasoning visualization. Features advanced agentic planning workflow with tool orchestration via MCP interface.",
       tech: ["Python", "Next.js", "OpenAI", "Model Context Protocol", "Docker"],
-      github: "https://github.com/andre-henriques04/cella",
-      demo: "https://cella-demo.com",
+      github: "https://github.com/andre-henriques04",
+      demo: "https://strobe.bot",
     },
     {
       title: "🎯 Pickleball Tournament Searcher & GPT Assistant",
@@ -1001,7 +1001,7 @@ export default function Portfolio() {
             </AnimatedSection>
 
             <StaggeredContainer className="grid lg:grid-cols-2 gap-8" staggerDelay={200}>
-              {/* CELLA Project */}
+              {/* Strobe Project */}
               <div className="group relative">
                 <div className="absolute inset-0 bg-gradient-to-r from-emerald-400 to-blue-500 rounded-3xl blur opacity-25 group-hover:opacity-40 transition-opacity duration-300"></div>
                 <div className="relative bg-white dark:bg-gray-900 rounded-3xl p-8 shadow-xl border border-gray-100 dark:border-gray-800 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
@@ -1012,9 +1012,9 @@ export default function Portfolio() {
                         <span className="text-2xl">🤖</span>
                       </div>
                       <div>
-                        <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-1">CELLA</h3>
+                        <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-1">Strobe</h3>
                         <p className="text-emerald-600 dark:text-emerald-400 font-semibold">
-                          Context-Engineered Long-Lived Agent
+                        Turn any webpage into a smart alert
                         </p>
                       </div>
                     </div>
@@ -1022,14 +1022,9 @@ export default function Portfolio() {
 
                   {/* Project Description */}
                   <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
-                    Full-stack AI agent with{" "}
-                    <span className="text-emerald-600 dark:text-emerald-400 font-semibold">
-                      persistent vector memory
-                    </span>
-                    , context compression, and live reasoning visualization. Features advanced agentic planning workflow
-                    with
-                    <span className="text-blue-600 dark:text-blue-400 font-semibold"> tool orchestration</span> via MCP
-                    interface.
+                  Paste a URL. Describe what to watch in plain English. We'll email you when it happens—or send clean JSON to your webhook.
+
+
                   </p>
 
                   {/* Key Features */}
@@ -1040,19 +1035,19 @@ export default function Portfolio() {
                     <div className="grid grid-cols-2 gap-2 text-sm">
                       <div className="flex items-center text-gray-600 dark:text-gray-300">
                         <div className="w-2 h-2 bg-emerald-500 rounded-full mr-2"></div>
-                        Vector Memory
+                        TBD
                       </div>
                       <div className="flex items-center text-gray-600 dark:text-gray-300">
                         <div className="w-2 h-2 bg-blue-500 rounded-full mr-2"></div>
-                        Live Reasoning
+                        TBD
                       </div>
                       <div className="flex items-center text-gray-600 dark:text-gray-300">
                         <div className="w-2 h-2 bg-purple-500 rounded-full mr-2"></div>
-                        Context Compression
+                        TBD
                       </div>
                       <div className="flex items-center text-gray-600 dark:text-gray-300">
                         <div className="w-2 h-2 bg-yellow-500 rounded-full mr-2"></div>
-                        Tool Orchestration
+                        TBD
                       </div>
                     </div>
                   </div>
@@ -1063,7 +1058,7 @@ export default function Portfolio() {
                       Tech Stack
                     </h4>
                     <div className="flex flex-wrap gap-2">
-                      {["Python", "FastAPI", "TypeScript", "React", "Next.js", "MCP", "Qdrant"].map((tech) => (
+                      {["Python", "TypeScript", "React", "Next.js", "Supabase", "Cloudfare"].map((tech) => (
                         <span
                           key={tech}
                           className="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full text-xs font-medium border border-gray-200 dark:border-gray-700"
@@ -1076,10 +1071,15 @@ export default function Portfolio() {
 
                   {/* Action Buttons */}
                   <div className="flex space-x-4">
-                    <button className="flex items-center px-4 py-2 border-2 border-gray-300 dark:border-gray-600 text-gray-500 dark:text-gray-400 rounded-xl font-semibold cursor-not-allowed">
-                      <ExternalLink className="h-4 w-4 mr-2" />
-                      Demo coming soon...
-                    </button>
+                    <a
+                      href="https://strobe.bot"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center px-4 py-2 border-2 border-blue-500 dark:border-blue-400 text-blue-600 dark:text-blue-400 rounded-xl font-semibold hover:bg-blue-500 hover:text-white dark:hover:bg-blue-400 dark:hover:text-gray-900 transition-all duration-300 transform hover:scale-105 hover:shadow-lg cursor-pointer group"
+                    >
+                      <ExternalLink className="h-4 w-4 mr-2 group-hover:scale-110 transition-transform duration-300" />
+                      Visit Website
+                    </a>
                   </div>
                 </div>
               </div>
